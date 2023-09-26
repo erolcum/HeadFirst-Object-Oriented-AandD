@@ -1,1 +1,1 @@
-You can not add a method in enum for C#. But for this purpose you can add extension methods for enum. You can see the structure in GuitarSpec.cs. 
+Codes are for a guitar shop. You need to find the guitar which has a requested specs. You can not add a method in enum for C#. But for this purpose you can add extension methods for enum. You can see the structure in GuitarSpec.cs. 
