@@ -5,7 +5,7 @@ The heart of the project is a method, **public bool Matches(GuitarSpec otherSpec
 ___
 **FindGuitarTester.cs :**
 1. new Inventory(), creates a **list**. You can see it in the constructor of Inventory class.
-2. InitializeInventory(inventory), creates 11 GuitarSpecs (instances) and send them to the guitar **list** by using AddGuitar method of inventory. This method creates 11 Guitar instances. So, a Guitar instance has a serialnumber, price and a GuitarSpec instance.
+2. InitializeInventory(inventory), creates 11 GuitarSpecs (instances) and send them to the guitar **list** by using AddGuitar method of inventory. This method creates 11 Guitar instances. So, each Guitar instance has a serialnumber, price and a GuitarSpec instance.
 3. GuitarSpec whatErinLikes =..., an instance of a GuitarSpec is created to search in inventory.
 4. List<Guitar> matchingGuitars = inventory.Search(whatErinLikes), this spec is sent to Search method in inventory. matchingGuitars list is created in that method and filled with matching guitars
 5. matchingGuitars list is printed on screen.
